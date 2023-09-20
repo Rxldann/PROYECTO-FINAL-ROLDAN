@@ -10,20 +10,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- FONTAWESOME FIN-->
     <title>EyeClothes</title>
-    <link rel="stylesheet" href="../../estilos.css">
-    <link rel="shortcut icon" href="../../images/icon.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="/estilos.css">
+    <link rel="shortcut icon" href="/images/icon.PNG" type="image/x-icon">
 </head>
 <body>
     <!-- navbar -->
     <header>
-        <a href="../index.html" class="logo">
+        <a href="/index.html" class="logo">
     
             <h1 class="nombre-logo"><i class="fa-solid fa-eye"></i>EyeClothes</h1>
         </a>
         <nav>
-            <a href="../../index.html">Inicio</a>
-            <a href="../nosotros.html">Nosotros</a>
-            <a href="../guia.html">Guia</a>
+            <a href="/index.html">Inicio</a>
+            <a href="/pages/nosotros.html">Nosotros</a>
+            <a href="/pages/guia.html">Guia</a>
+        
+            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                Categorias
+            </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <li><button class="dropdown-item" type="button"><a href="/pages/remeras.html">Remeras</a></button></li>
+                <li><button class="dropdown-item" type="button"><a href="/pages/pantalones.html">Pantalones</a></button></li>
+                <li><button class="dropdown-item" type="button"><a href="/pages/accesorios.html">Accesorios</a></button></li>
+        </ul>
+
         </nav>
     </header>
     <!-- navbar fin -->
@@ -32,18 +42,20 @@
     <section id="comprapage" class="container">  
     <div class="row">
         <div class="col-lg-4">
-            <img src="../../images/pantalon4.jpg" alt="remera">
+            <img src="../../images/remera.webp" alt="remera">
         </div>
     </div>    
     
     <div class="comprahtml container">
-        <h2>PARACHUTE Void</h2>
+        <h2>Remera OverSize</h2>
+        <hr>
         <div class="botoncomprar pb-3 pt-3" id="botoncomprar">
         <a href="#">COMPRAR</a>
         </div>
     <div>
-        <h3 class="text-center pt-3">$27.500</h3>
+        <h3 class="text-center pt-3">$11.500</h3>
     <p class="text-center">3 cuotas sin interes!</p>
+    <hr>
     </div>
 </div>
 </section>
@@ -126,4 +138,8 @@
     </footer>
 
 
-    <!-- footer fin -->
+    <!-- footer fin --><!-- bundle BS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<!-- bundle BS fin-->
+</body>
+</html>
