@@ -10,6 +10,25 @@ $color2: black;
 a{
     text-decoration: none;
 }
+.contactweb i{
+    padding-bottom: 39px;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    color: silver;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 30px;
+    border-style: dashed;
+    border-color: silver;
+}
+.contactweb:hover{
+    transform: scale(1.5);
+}
 header{
     padding: 20px;
     text-align: center;
@@ -91,7 +110,10 @@ p{
     }
 }
 /* secciones fin */
-
+.message{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 /* footer con bs */
 
 i:hover{
@@ -102,7 +124,13 @@ color: silver !important;
 }
 footer{background-color: black;
     background-size: cover;
-
+}
+.vermas a{
+    color: white;
+    
+}
+.vermas a:hover{
+    font-size: 16px;
 }
 /*footer con bs fin*/
 /* nosotros.html*/
@@ -280,13 +308,18 @@ font-size: 30px;
         transition: 0.4s;
         }
     }
-    
+    .message{
+        font-size: 45px;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
 
     
 }
 @media only screen and (min-width: 1024px){
     .banner{
         height: 500px;
+        object-fit:cover;
     }
     
     #galeria img{
@@ -325,7 +358,7 @@ font-size: 30px;
         font-size: 40px;
     }
     .banner{
-        height: 700px;
+        height: 600px;
     }
     #galeria img{
         width: 100%;
